@@ -1,6 +1,6 @@
 function fetchMeals(searchMeal){
     console.log(searchMeal);
-    let url= 'https://www.themealdb.com/api/json/v1/1/search.php?s=${searchMeal}'
+    let url= 'https://www.themealdb.com/api/json/v1/1/search.php?s=`${searchMeal}`'
     let settings={
         method: 'GET'
     };
